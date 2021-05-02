@@ -34,8 +34,11 @@ struct AnimalListItemView: View {
                         .lineLimit(2)
                         .padding(.trailing, 8)
                 } //: VStack
+                .navigationViewStyle(DoubleColumnNavigationViewStyle())
             } // : NavigationLink
+            .navigationViewStyle(DoubleColumnNavigationViewStyle())
         }//: HStack
+        .navigationViewStyle(DoubleColumnNavigationViewStyle())
     }
 }
 
